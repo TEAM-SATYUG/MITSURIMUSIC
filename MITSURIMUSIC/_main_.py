@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from MITSURIMUSIC import LOGGER, app, userbot
-from MITSURIMUSIC.core.call import JARVIS
+from MITSURIMUSIC.core.call import TOXIC
 from MITSURIMUSIC.misc import sudo
 from MITSURIMUSIC.plugins import ALL_MODULES
 from MITSURIMUSIC.utils.database import get_banned_users, get_gbanned
