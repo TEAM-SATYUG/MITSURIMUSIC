@@ -5,12 +5,12 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from ANNIEMUSIC import LOGGER, app, userbot
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.misc import sudo
-from ANNIEMUSIC.plugins import ALL_MODULES
-from ANNIEMUSIC.utils.database import get_banned_users, get_gbanned
-from ANNIEMUSIC.utils.cookie_handler import fetch_and_store_cookies 
+from MITSURIMUSIC import LOGGER, app, userbot
+from MITSURIMUSIC.core.call import JARVIS
+from MITSURIMUSIC.misc import sudo
+from MITSURIMUSIC.plugins import ALL_MODULES
+from MITSURIMUSIC.utils.database import get_banned_users, get_gbanned
+from MITSURIMUSIC.utils.cookie_handler import fetch_and_store_cookies 
 from config import BANNED_USERS
 
 
