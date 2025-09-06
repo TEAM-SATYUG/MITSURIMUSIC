@@ -1,8 +1,8 @@
-from ANNIEMUSIC.core.bot import JARVIS
-from ANNIEMUSIC.core.dir import dirr
-from ANNIEMUSIC.core.git import git
-from ANNIEMUSIC.core.userbot import Userbot
-from ANNIEMUSIC.misc import dbb, heroku
+from MITSURIMUSIC.core.bot import TOXIC
+from MITSURIMUSIC.core.dir import dirr
+from MITSURIMUSIC.core.git import git
+from MITSURIMUSIC.core.userbot import Userbot
+from MITSURIMUSIC.misc import dbb, heroku
 
 from .logging import LOGGER
 
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = JARVIS()
+app = TOXIC()
 userbot = Userbot()
 
 
