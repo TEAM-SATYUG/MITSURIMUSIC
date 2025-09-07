@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.utils.database import group_assistant
-from ANNIEMUSIC.utils.admin_filters import admin_filter
+from MITSURIMUSIC import app
+from MITSURIMUSIC.core.call import TOXIC
+from MITSURIMUSIC.utils.database import group_assistant
+from MITSURIMUSIC.utils.admin_filters import admin_filter
 
 
 @app.on_message(filters.command("volume") & filters.group & admin_filter & ~BANNED_USERS)
@@ -31,7 +31,7 @@ async def set_volume(client, message: Message):
         return await message.reply_text("❌ Volume control is not supported in basic groups.")
     
     try:
-        await JARVIS.change_volume(chat_id, volume_level)
+        await TOXIC.change_volume(chat_id, volume_level)
         await message.reply_text(
             f"<b>🔊 Stream volume set to {volume_level}</b>.\n\n└ Requested by: {message.from_user.mention} 🥀"
         )
