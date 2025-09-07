@@ -7,10 +7,10 @@ from datetime import datetime
 import aiofiles
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 from config import LOGGER_ID, DEBUG_IGNORE_LOG
-from ANNIEMUSIC.utils.exceptions import is_ignored_error
-from ANNIEMUSIC.utils.pastebin import ANNIEBIN
+from MITSURIMUSIC.utils.exceptions import is_ignored_error
+from MITSURIMUSIC.utils.pastebin import MITSURIBIN
 
 
 DEBUG_LOG_FILE = "ignored_errors.log"
@@ -20,7 +20,7 @@ DEBUG_LOG_FILE = "ignored_errors.log"
 
 async def send_large_error(text: str, caption: str, filename: str):
     try:
-        paste_url = await ANNIEBIN(text)
+        paste_url = await MITSURIBIN(text)
         if paste_url:
             await app.send_message(LOGGER_ID, f"{caption}\n\n🔗 Paste: {paste_url}")
             return
