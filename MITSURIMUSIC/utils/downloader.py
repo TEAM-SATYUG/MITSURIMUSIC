@@ -11,7 +11,7 @@ USE_API = bool(API_URL and API_KEY)
 _logged_api_skip = False
 CHUNK_SIZE = 8192
 RETRY_DELAY = 2
-cookies_file = "ANNIEMUSIC/assets/cookies.txt"
+cookies_file = "MITSURIMUSIC/assets/cookies.txt"
 download_folder = "downloads"
 os.makedirs(download_folder, exist_ok=True)
 
