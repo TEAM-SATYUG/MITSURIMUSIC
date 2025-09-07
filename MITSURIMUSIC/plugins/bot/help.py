@@ -4,17 +4,17 @@ from typing import Union
 from pyrogram import Client, filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import get_lang
-from ANNIEMUSIC.utils.decorators.language import LanguageStart, languageCB
-from ANNIEMUSIC.utils.inline.help import (
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.database import get_lang
+from MITSURIMUSIC.utils.decorators.language import LanguageStart, languageCB
+from MITSURIMUSIC.utils.inline.help import (
     action_sub_menu,
     first_page,
     help_back_markup,
     private_help_panel,
     second_page,
 )
-from ANNIEMUSIC.utils.inline.start import private_panel
+from MITSURIMUSIC.utils.inline.start import private_panel
 from config import BANNED_USERS, HELP_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 
