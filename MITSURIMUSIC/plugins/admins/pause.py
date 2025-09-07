@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from MITSURIMUSIC import app
-from MITSURIMUSIC.core.call import JARVIS
+from MITSURIMUSIC.core.call import TOXIC
 from MITSURIMUSIC.utils.database import is_music_playing, music_off
 from MITSURIMUSIC.utils.decorators import AdminRightsCheck
 from MITSURIMUSIC.utils.inline import close_markup
