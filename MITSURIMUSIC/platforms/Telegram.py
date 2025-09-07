@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.formatters import (
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
