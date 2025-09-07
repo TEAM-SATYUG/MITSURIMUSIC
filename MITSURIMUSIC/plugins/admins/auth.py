@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils import extract_user, int_to_alpha
-from ANNIEMUSIC.utils.database import (
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils import extract_user, int_to_alpha
+from MITSURIMUSIC.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from ANNIEMUSIC.utils.decorators import AdminActual, language
-from ANNIEMUSIC.utils.inline import close_markup
+from MITSURIMUSIC.utils.decorators import AdminActual, language
+from MITSURIMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
