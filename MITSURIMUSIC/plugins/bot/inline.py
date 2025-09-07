@@ -5,9 +5,9 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from ANNIEMUSIC.utils.inlinequery import answer
+from MITSURIMUSIC.utils.inlinequery import answer
 from config import BANNED_USERS
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 @app.on_inline_query(~BANNED_USERS)
