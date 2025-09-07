@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import get_loop, set_loop
-from ANNIEMUSIC.utils.decorators import AdminRightsCheck
-from ANNIEMUSIC.utils.inline import close_markup
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.database import get_loop, set_loop
+from MITSURIMUSIC.utils.decorators import AdminRightsCheck
+from MITSURIMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
