@@ -1,8 +1,8 @@
 import requests
 from config import COOKIE_URL
-from ANNIEMUSIC.utils.errors import capture_internal_err
+from MITSURIMUSIC.utils.errors import capture_internal_err
 
-COOKIE_PATH = "ANNIEMUSIC/assets/cookies.txt"
+COOKIE_PATH = "MITSURIMUSIC/assets/cookies.txt"
 
 
 def resolve_raw_cookie_url(url: str) -> str:
