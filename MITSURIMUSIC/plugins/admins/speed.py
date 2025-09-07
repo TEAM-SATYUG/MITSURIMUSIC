@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.misc import SUDOERS, db
-from ANNIEMUSIC.utils import AdminRightsCheck
-from ANNIEMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from ANNIEMUSIC.utils.decorators.language import languageCB
-from ANNIEMUSIC.utils.inline import close_markup, speed_markup
+from MITSURIMUSIC import app
+from MITSURIMUSIC.core.call import TOXIC
+from MITSURIMUSIC.misc import SUDOERS, db
+from MITSURIMUSIC.utils import AdminRightsCheck
+from MITSURIMUSIC.utils.database import is_active_chat, is_nonadmin_chat
+from MITSURIMUSIC.utils.decorators.language import languageCB
+from MITSURIMUSIC.utils.inline import close_markup, speed_markup
 
 checker = []
 
@@ -94,7 +94,7 @@ async def manage_callback(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await JARVIS.speedup_stream(
+        await TOXIC.speedup_stream(
             chat_id,
             file_path,
             speed,
