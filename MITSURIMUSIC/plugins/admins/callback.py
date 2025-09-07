@@ -16,10 +16,10 @@ from config import (
     votemode,
 )
 from strings import get_string
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.misc import SUDOERS, db
-from ANNIEMUSIC.utils.database import (
+from MITSURIMUSIC import YouTube, app
+from MITSURIMUSIC.core.call import TOXIC
+from MITSURIMUSIC.misc import SUDOERS, db
+from MITSURIMUSIC.utils.database import (
     get_active_chats,
     get_assistant,
     get_lang,
@@ -34,11 +34,11 @@ from ANNIEMUSIC.utils.database import (
     mute_on,
     set_loop,
 )
-from ANNIEMUSIC.utils.decorators.language import languageCB
-from ANNIEMUSIC.utils.formatters import seconds_to_min
-from ANNIEMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from ANNIEMUSIC.utils.stream.autoclear import auto_clean
-from ANNIEMUSIC.utils.thumbnails import get_thumb
+from MITSURIMUSIC.utils.decorators.language import languageCB
+from MITSURIMUSIC.utils.formatters import seconds_to_min
+from MITSURIMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
+from MITSURIMUSIC.utils.stream.autoclear import auto_clean
+from MITSURIMUSIC.utils.thumbnails import get_thumb
 
 
 checker = {}
@@ -229,7 +229,7 @@ async def handle_skip_replay(callback: CallbackQuery, _, chat_id: int, command: 
                     _["admin_6"].format(user_mention, callback.message.chat.title),
                     reply_markup=close_markup(_)
                 )
-                return await JARVIS.stop_stream(chat_id)
+                return await TOXIC.stop_stream(chat_id)
         except Exception:
             try:
                 await callback.edit_message_text(text_msg)
