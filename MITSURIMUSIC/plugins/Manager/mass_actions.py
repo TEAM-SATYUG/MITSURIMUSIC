@@ -23,8 +23,8 @@ from pyrogram.types import (
 )
 from pyrogram.enums import ChatMemberStatus, ChatMembersFilter
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.permissions import is_owner_or_sudoer, mention
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.permissions import is_owner_or_sudoer, mention
 
 MASS_CMDS = ["kickall", "banall", "unbanall", "muteall", "unmuteall", "unpinall"]
 
