@@ -11,9 +11,9 @@ from pyrogram.errors import (
     PeerIdInvalid,
 )
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_filters import dev_filter, admin_filter, sudo_filter
-from ANNIEMUSIC.utils.database import get_assistant
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.admin_filters import dev_filter, admin_filter, sudo_filter
+from MITSURIMUSIC.utils.database import get_assistant
 
 
 async def join_userbot(app, chat_id, chat_username=None):
