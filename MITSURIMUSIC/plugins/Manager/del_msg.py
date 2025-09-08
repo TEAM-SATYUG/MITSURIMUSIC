@@ -21,11 +21,11 @@ from pyrogram.errors import (
     PeerIdInvalid
 )
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.logging import LOGGER as _LOGGER_FACTORY
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import get_assistant
-from ANNIEMUSIC.utils.permissions import is_owner_or_sudoer, mention
+from MITSURIMUSIC import app
+from MITSURIMUSIC.logging import LOGGER as _LOGGER_FACTORY
+from MITSURIMUSIC.misc import SUDOERS
+from MITSURIMUSIC.utils.database import get_assistant
+from MITSURIMUSIC.utils.permissions import is_owner_or_sudoer, mention
 
 # create a real logger instance
 log = _LOGGER_FACTORY(__name__)
