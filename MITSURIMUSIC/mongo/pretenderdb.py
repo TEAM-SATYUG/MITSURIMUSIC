@@ -1,4 +1,4 @@
-from ANNIEMUSIC.utils.mongo import impdb
+from MITSURIMUSIC.utils.mongo import impdb
 
 
 async def usr_data(user_id: int) -> bool:
