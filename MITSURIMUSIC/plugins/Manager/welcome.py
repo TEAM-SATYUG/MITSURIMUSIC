@@ -13,9 +13,9 @@ from ANNIEMUSIC import app
 # ─────────────────────────────
 # CONFIG
 # ─────────────────────────────
-BG_PATH      = "ANNIEMUSIC/assets/annie/AnnieNwel.png"
-FALLBACK_PIC = "ANNIEMUSIC/assets/upic.png"
-FONT_PATH    = "ANNIEMUSIC/assets/annie/ArialReg.ttf"
+BG_PATH      = "MITSURIMUSIC/assets/mitsuri/AnnieNwel.png"
+FALLBACK_PIC = "MITSURIMUSIC/assets/upic.png"
+FONT_PATH    = "MITSURIMUSIC/assets/annie/ArialReg.ttf"
 BTN_VIEW     = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
 BTN_ADD      = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
 
