@@ -8,9 +8,9 @@ from pyrogram.types import (
     CallbackQuery,
 )
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import get_lang, set_lang
-from ANNIEMUSIC.utils.decorators import ActualAdminCB, language, languageCB
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.database import get_lang, set_lang
+from MITSURIMUSIC.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
