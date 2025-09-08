@@ -4,8 +4,8 @@ from pyrogram.enums import ChatType
 from pyrogram.errors import MessageDeleteForbidden, RPCError, FloodWait
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_filters import admin_filter
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.admin_filters import admin_filter
 
 
 def divide_chunks(l: list, n: int = 100):
