@@ -3,7 +3,7 @@ from pyrogram import filters, enums, types
 from pyrogram.errors import PeerIdInvalid, RPCError, FloodWait
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 def get_full_name(user):
