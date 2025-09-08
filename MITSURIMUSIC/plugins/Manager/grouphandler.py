@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_filters import admin_filter
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.admin_filters import admin_filter
 
 # ------------------- Utility Functions ------------------- #
 
