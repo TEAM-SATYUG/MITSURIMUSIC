@@ -3,9 +3,9 @@ import random
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import FloodWait
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_check import is_admin
-from ANNIEMUSIC.plugins.misc.funtag_messages import (
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.admin_check import is_admin
+from MITSURIMUSIC.plugins.misc.funtag_messages import (
     GN_MESSAGES,
     GM_MESSAGES,
     HI_MESSAGES,
