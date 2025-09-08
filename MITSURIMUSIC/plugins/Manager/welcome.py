@@ -13,7 +13,7 @@ from ANNIEMUSIC import app
 # ─────────────────────────────
 # CONFIG
 # ─────────────────────────────
-BG_PATH      = "MITSURIMUSIC/assets/mitsuri/AnnieNwel.png"
+BG_PATH      = "MITSURIMUSIC/assets/mitsuri/wel2.png"
 FALLBACK_PIC = "MITSURIMUSIC/assets/upic.png"
 FONT_PATH    = "MITSURIMUSIC/assets/annie/ArialReg.ttf"
 BTN_VIEW     = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
