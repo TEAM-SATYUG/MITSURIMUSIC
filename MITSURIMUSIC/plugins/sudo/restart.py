@@ -11,15 +11,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import HAPP, SUDOERS, XCB
-from ANNIEMUSIC.utils.database import (
+from MITSURIMUSIC import app
+from MITSURIMUSIC.misc import HAPP, SUDOERS, XCB
+from MITSURIMUSIC.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.pastebin import ANNIEBIN
+from MITSURIMUSIC.utils.decorators.language import language
+from MITSURiMUSIC.utils.pastebin import MITSURIBIN
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -100,7 +100,7 @@ async def update_(client, message, _):
     _final_updates_ = _update_response_ + updates
 
     if len(_final_updates_) > 4096:
-        url = await ANNIEBIN(updates)
+        url = await MITSURIBIN(updates)
         nrs = await response.edit(
             f"<b>ᴀ ɴᴇᴡ ᴜᴩᴅᴀᴛᴇ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ ғᴏʀ ᴛʜᴇ ʙᴏᴛ !</b>\n\n"
             f"\u2793 ᴩᴜsʜɪɴɢ ᴜᴩᴅᴀᴛᴇs ɴᴏᴡ\n\n"
@@ -139,7 +139,7 @@ async def update_(client, message, _):
                 text=_["server_10"].format(err),
             )
     else:
-        os.execv(sys.executable, [sys.executable, "-m", "ANNIEMUSIC"])
+        os.execv(sys.executable, [sys.executable, "-m", "MITSURIMUSIC"])
 
 
 @app.on_message(filters.command(["restart"]) & SUDOERS)
@@ -163,4 +163,4 @@ async def restart_(_, message):
         "» ʀᴇsᴛᴀʀᴛ ᴘʀᴏᴄᴇss sᴛᴀʀᴛᴇᴅ, ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴏʀ ғᴇᴡ sᴇᴄᴏɴᴅs ᴜɴᴛɪʟ ᴛʜᴇ ʙᴏᴛ sᴛᴀʀᴛs..."
     )
 
-    os.execv(sys.executable, [sys.executable, "-m", "ANNIEMUSIC"])
+    os.execv(sys.executable, [sys.executable, "-m", "MITSURIMUSIC"])
