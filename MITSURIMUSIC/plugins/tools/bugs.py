@@ -8,7 +8,7 @@ from pyrogram.types import (
 )
 from pyrogram.enums import ParseMode
 from config import OWNER_ID
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 def extract_bug_content(msg: Message) -> str | None:
