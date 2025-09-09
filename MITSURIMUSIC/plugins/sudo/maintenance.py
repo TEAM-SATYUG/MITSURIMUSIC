@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import (
+from MITSURIMUSIC import app
+from MITSURIMUSIC.misc import SUDOERS
+from MITSURIMUSIC.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
