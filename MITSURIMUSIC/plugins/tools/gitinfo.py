@@ -2,7 +2,7 @@ import aiohttp
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 @app.on_message(filters.command(["github", "git"]))
