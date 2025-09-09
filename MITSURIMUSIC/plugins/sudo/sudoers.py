@@ -2,11 +2,11 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, OWNER_ID
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import add_sudo, remove_sudo
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.extraction import extract_user
+from MITSURIMUSIC import app
+from MITSURIMUSIC.misc import SUDOERS
+from MITSURIMUSIC.utils.database import add_sudo, remove_sudo
+from MITSURIMUSIC.utils.decorators.language import language
+from MITSURIMUSIC.utils.extraction import extract_user
 
 # ─── Add Sudo ─────────────────────────────────────────────
 
@@ -52,7 +52,7 @@ async def sudoers_list(client, message: Message):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await message.reply_video(
-        video="https://files.catbox.moe/x7v3k6.mp4",
+        video="https://files.catbox.moe/uswt6z.jpg",
         caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ.",
         reply_markup=reply_markup
     )
