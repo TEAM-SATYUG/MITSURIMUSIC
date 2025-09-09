@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 from config import OWNER_ID
 
 
