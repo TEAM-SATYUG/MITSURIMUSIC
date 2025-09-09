@@ -9,23 +9,23 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS, lyrical, AYU
-from ANNIEMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.utils import seconds_to_min, time_to_seconds
-from ANNIEMUSIC.utils.channelplay import get_channeplayCB
-from ANNIEMUSIC.utils.decorators.language import languageCB
-from ANNIEMUSIC.utils.decorators.play import PlayWrapper
-from ANNIEMUSIC.utils.errors import capture_err, capture_callback_err
-from ANNIEMUSIC.utils.formatters import formats
-from ANNIEMUSIC.utils.inline import (
+from MITSURIMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from MITSURIMUSIC.core.call import TOXIC
+from MITSURIMUSIC.utils import seconds_to_min, time_to_seconds
+from MITSURIMUSIC.utils.channelplay import get_channeplayCB
+from MITSURIMUSIC.utils.decorators.language import languageCB
+from MITSURIMUSIC.utils.decorators.play import PlayWrapper
+from MITSURIMUSIC.utils.errors import capture_err, capture_callback_err
+from MITSURIMUSIC.utils.formatters import formats
+from MITSURIMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ANNIEMUSIC.utils.logger import play_logs
-from ANNIEMUSIC.utils.stream.stream import stream
+from MITSURIMUSIC.utils.logger import play_logs
+from MITSURIMUSIC.utils.stream.stream import stream
 
 
 @app.on_message(
@@ -548,7 +548,7 @@ async def anonymous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("AnniePlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("MitsuriPlaylists") & ~BANNED_USERS)
 @languageCB
 @capture_callback_err
 async def play_playlists_command(client, CallbackQuery, _):
