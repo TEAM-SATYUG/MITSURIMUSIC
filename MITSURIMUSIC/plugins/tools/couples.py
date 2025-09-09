@@ -8,8 +8,8 @@ from pyrogram import errors, filters
 from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.mongo.couples_db import get_couple, save_couple
+from MITSURIMUSIC import app
+from MITSURIMUSIC.mongo.couples_db import get_couple, save_couple
 
 
 def today() -> str:
@@ -36,7 +36,7 @@ async def safe_get_user(uid: int):
 
 
 async def safe_photo(uid: int, name: str):
-    fallback = "ANNIEMUSIC/assets/upic.png"
+    fallback = "MITSURIMUSIC/assets/upic.png"
     try:
         chat = await app.get_chat(uid)
         return await app.download_media(chat.photo.big_file_id, file_name=name)
@@ -45,7 +45,7 @@ async def safe_photo(uid: int, name: str):
 
 
 async def generate_image(chat_id: int, uid1: int, uid2: int, date: str) -> str:
-    base = Image.open("ANNIEMUSIC/assets/annie/ANNIECP.png")
+    base = Image.open("MITSURIMUSIC/assets/annie/ANNIECP.png")
     p1   = await safe_photo(uid1, "pfp1.png")
     p2   = await safe_photo(uid2, "pfp2.png")
 
