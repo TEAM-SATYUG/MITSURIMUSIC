@@ -4,14 +4,14 @@ from pyrogram.enums import ParseMode
 import git
 import shutil
 import os
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 @app.on_message(filters.command(["downloadrepo"]))
 async def download_repo(client: Client, message: Message):
     if len(message.command) != 2:
         return await message.reply_text(
             "❌ Please provide a valid GitHub repository URL.\n\n"
-            "Example: `/downloadrepo https://github.com/CertifiedCoders/TuneViaBot.git`",
+            "Example: `/downloadrepo what ever you want`",
             parse_mode=ParseMode.MARKDOWN
         )
 
