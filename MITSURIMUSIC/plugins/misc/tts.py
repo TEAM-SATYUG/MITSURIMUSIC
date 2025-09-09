@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 from pyrogram.enums import ChatAction, ParseMode
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 # ---------------------------------------------------------------------------
 # Global caches & constants
