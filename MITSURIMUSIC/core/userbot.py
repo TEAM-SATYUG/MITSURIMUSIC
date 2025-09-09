@@ -20,35 +20,35 @@ GROUPS_TO_JOIN = [
 class Userbot:
     def __init__(self):
         self.one = Client(
-            "AnnieAssis1",
+            "MitsuriAssis1",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            "AnnieAssis2",
+            "MitsuriAssis2",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            "AnnieAssis3",
+            "MitsuriAssis3",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            "AnnieAssis4",
+            "MitsuriAssis4",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            "AnnieAssis5",
+            "MitsuriAssis5",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING5),
@@ -78,7 +78,7 @@ class Userbot:
 
             try:
                 await client.send_message(
-                    config.LOGGER_ID, f"Annie's Assistant {index} Started"
+                    config.LOGGER_ID, f"Mitsuri's Assistant {index} Started"
                 )
             except Exception:
                 LOGGER(__name__).error(
