@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton as ikb, InlineKeyboardMarkup as ikm, Message
 from pyrogram.enums import ChatAction, ParseMode
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 import pyshorteners
 import httpx
 
