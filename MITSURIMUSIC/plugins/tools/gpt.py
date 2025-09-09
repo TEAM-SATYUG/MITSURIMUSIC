@@ -7,7 +7,7 @@ from pyrogram.types import Message
 from pyrogram.enums import ChatAction
 
 from lexica import AsyncClient, languageModels, Messages
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 def extract_content(response) -> str:
