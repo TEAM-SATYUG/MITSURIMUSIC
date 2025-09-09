@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import autoend_off, autoend_on
+from MITSURIMUSIC import app
+from MITSURIMUSIC.misc import SUDOERS
+from MITSURIMUSIC.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
