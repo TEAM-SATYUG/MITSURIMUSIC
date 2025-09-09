@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
 from nekosbest import Client as NekoClient
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 neko_client = NekoClient()
 
