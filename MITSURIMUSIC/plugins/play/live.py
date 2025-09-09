@@ -1,10 +1,10 @@
 from pyrogram import filters
 import random
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.utils.channelplay import get_channeplayCB
-from ANNIEMUSIC.utils.decorators.language import languageCB
-from ANNIEMUSIC.utils.stream.stream import stream
-from ANNIEMUSIC.utils.errors import capture_callback_err
+from MITSURIMUSIC import YouTube, app
+from MITSURIMUSIC.utils.channelplay import get_channeplayCB
+from MITSURIMUSIC.utils.decorators.language import languageCB
+from MITSURIMUSIC.utils.stream.stream import stream
+from MITSURIMUSIC.utils.errors import capture_callback_err
 from config import BANNED_USERS, AYU
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
