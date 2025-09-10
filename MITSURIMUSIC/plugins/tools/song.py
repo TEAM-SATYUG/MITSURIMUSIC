@@ -14,16 +14,16 @@ class InlineKeyboardBuilder(list):
     def row(self, *buttons):
         self.append(list(buttons))
 
-from ANNIEMUSIC import app, YouTube
+from MITSURIMUSIC import app, YouTube
 from config import (
     BANNED_USERS,
     SONG_DOWNLOAD_DURATION,
     SONG_DOWNLOAD_DURATION_LIMIT,
 )
-from ANNIEMUSIC.utils.decorators.language import language, languageCB
-from ANNIEMUSIC.utils.errors import capture_err, capture_callback_err
-from ANNIEMUSIC.utils.formatters import convert_bytes, time_to_seconds
-from ANNIEMUSIC.utils.inline.song import song_markup
+from MITSURIMUSIC.utils.decorators.language import language, languageCB
+from MITSURIMUSIC.utils.errors import capture_err, capture_callback_err
+from MITSURIMUSIC.utils.formatters import convert_bytes, time_to_seconds
+from MITSURIMUSIC.utils.inline.song import song_markup
 
 SONG_COMMAND = ["song"]
 
