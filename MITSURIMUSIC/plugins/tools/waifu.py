@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 from pyrogram.types import Message
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 @app.on_message(filters.command("waifu"))
