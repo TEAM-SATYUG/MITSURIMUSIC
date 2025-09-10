@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 from config import *
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.utils import bot_sys_stats
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.inline import supp_markup
+from MITSURIMUSIC import app
+from MITSURIMUSIC.core.call import TOXIC
+from MITSURIMUSIC.utils import bot_sys_stats
+from MITSURIMUSIC.utils.decorators.language import language
+from MITSURIMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS, PING_VID_URL
 
 
