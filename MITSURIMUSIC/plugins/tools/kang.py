@@ -18,8 +18,8 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.files import resize_file_to_sticker_size
+from MITSURIMUSIC import app
+from MITSURIMUSIC.utils.files import resize_file_to_sticker_size
 from config import BOT_USERNAME
 
 BOT = BOT_USERNAME.lstrip("@").lower()
