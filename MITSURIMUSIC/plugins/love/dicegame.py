@@ -1,5 +1,5 @@
 from pyrogram import filters
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 # Dice 🎲
 @app.on_message(filters.command("dice"))
