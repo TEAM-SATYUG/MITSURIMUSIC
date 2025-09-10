@@ -8,7 +8,7 @@ from pyrogram import raw, filters
 from pyrogram.errors import StickersetInvalid
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 from config import BOT_USERNAME
 
 
