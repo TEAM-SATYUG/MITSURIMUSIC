@@ -45,9 +45,9 @@
 
 ---
 
-## 🌟 What is Annie Robot?
+## 🌟 What is Mitsuri Music ?
 
-**Annie Robot** is a modern Telegram bot built for streaming high-quality music into group voice chats. Based on **Pyrogram** and **PyTgCalls**, Annie supports major music platforms like YouTube, Spotify, Apple Music, and more.
+**Mitsuri Music** is a modern Telegram bot built for streaming high-quality music into group voice chats. Based on **Pyrogram** and **PyTgCalls**, Annie supports major music platforms like YouTube, Spotify, Apple Music, and more.
 
 In addition to music streaming, Annie also features some **Group Management** capabilities including:
 - 🔇 Mute/Kick/Ban etc.
@@ -84,8 +84,8 @@ source ~/.bashrc
 nvm install node
 
 # Step 3 - Clone Annie Repo
-git clone https://github.com/CertifiedCoders/AnnieXMusic
-cd AnnieXMusic
+git clone https://github.com/Team-Mitsuri/MITSURIMUSIC
+cd MITSURIMUSIC
 
 # Step 4 - Install Python packages
 pip3 install -U -r requirements.txt
@@ -101,9 +101,9 @@ tmux new -s tune
 sudo bash start
 
 # Developer Extras
-. tmux kill-session -t Annie    # Stop Bot Session
-. tmux attach-session -t Annie  # Attach to Running Bot Session
-. rm -rf AnnieXMusic            # Full Uninstall
+. tmux kill-session -t Mitsuri    # Stop Bot Session
+. tmux attach-session -t Mitsuri  # Attach to Running Bot Session
+. rm -rf MITSURIMUSIC            # Full Uninstall
 . Ctrl+B, release, then press D   # Detach from tmux
 
 ```
@@ -118,7 +118,7 @@ sudo bash start
 | Platform            | Link                                                                 |
 |---------------------|----------------------------------------------------------------------|
 | 🔑 Generate Session | <a href="https://t.me/CertifiedSessionBot"><img src="https://img.shields.io/badge/Session%20-Generator-orange?style=for-the-badge&logo=heroku" /></a> |
-| 🌍 Heroku Deploy     | <a href="http://dashboard.heroku.com/new?template=https://github.com/CertifiedCoders/AnnieXMusic"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku" /></a> |
+| 🌍 Heroku Deploy     | <a href="http://dashboard.heroku.com/new?template=https://github.com/Team-Mitsuri/MITSURIMUSIC"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku" /></a> |
 | ⚡ Render Deploy     | <a href="https://render.com/deploy?repo=https://github.com/CertifiedCoders/AnnieXMusic"><img src="https://img.shields.io/badge/Deploy%20to-Render-blue?style=for-the-badge&logo=render" /></a> |
 | ☁️ Koyeb Deploy      | <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/CertifiedCoders/AnnieXMusic"><img src="https://img.shields.io/badge/Deploy%20to-Koyeb-green?style=for-the-badge&logo=koyeb" /></a> |
 
@@ -129,15 +129,15 @@ sudo bash start
 ## 👥 Contributors, Stars & Forks
 
 <p align="center">
-  <img src="https://img.shields.io/github/contributors/CertifiedCoders/AnnieXMusic?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/CertifiedCoders/AnnieXMusic?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/CertifiedCoders/AnnieXMusic?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/CertifiedCoders/AnnieXMusic?style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors/Team-Mitsuri/MITSURIMUSIC?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Team-Mitsuru/MITSURIMUSIC?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/Team-Mitsuri/MITSURIMUSIC?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/Team-Mitsuri/MITSURIMUSIC?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/CertifiedCoders/AnnieXMusic/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=CertifiedCoders/AnnieXMusic" />
+  <a href="https://github.com/Team-Mitsuri/MITSURIMUSIC/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=Team-Mitsuri/MITSURIMUSIC" />
   </a>
 </p>
 
@@ -146,12 +146,10 @@ sudo bash start
 ## 💬 Community & Support
 
 <p align="center">
-  <a href="https://t.me/CertifiedCoders"><img src="https://img.shields.io/badge/Support%20Group-Join-orange?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://t.me/CertifiedCodes"><img src="https://img.shields.io/badge/Channel-Updates-purple?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://t.me/CertifiedCoder"><img src="https://img.shields.io/badge/Owner-Message-red?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://youtube.com/@rajnisha3"><img src="https://img.shields.io/badge/Youtube-Subscribe-red?style=for-the-badge&logo=youtube" /></a>
-  <a href="https://instagram.com/rajnishthegreat"><img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram" /></a>
-  <a href="mailto:rajnishmishraaa1@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-grey?style=for-the-badge&logo=gmail" /></a>
+  <a href="https://t.me/Mitsuri_x_Support"><img src="https://img.shields.io/badge/Support%20Group-Join-orange?style=for-the-badge&logo=telegram" /></a>
+  <a href="https://t.me/TEAM_x_MITSURI"><img src="https://img.shields.io/badge/Channel-Updates-purple?style=for-the-badge&logo=telegram" /></a>
+  <a href="https://t.me/Assaulted_dark"><img src="https://img.shields.io/badge/Owner-Message-red?style=for-the-badge&logo=telegram" /></a>
+  
 </p>
 
 ---
@@ -163,4 +161,4 @@ sudo bash start
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [TeamYukki](https://github.com/TeamYukki) ғᴏʀ [YukkiMusicBot](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
 
 
-- <b> _Made with Passion by [Certified Coders](https://github.com/CertifiedCoders)_ </b>
+- <b> _Made with Passion by [Toxic XD](https://github.com/Team-Mitsuri)_ </b>
