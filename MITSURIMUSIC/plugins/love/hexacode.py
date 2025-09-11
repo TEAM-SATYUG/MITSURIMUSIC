@@ -1,5 +1,5 @@
 from pyrogram import filters
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 from config import BOT_USERNAME
 
 
