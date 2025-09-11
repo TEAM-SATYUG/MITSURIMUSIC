@@ -5,8 +5,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.raw.functions.messages import DeleteHistory
 
-from ANNIEMUSIC import userbot as us, app
-from ANNIEMUSIC.core.userbot import assistants
+from MITSURIMUSIC import userbot as us, app
+from MITSURIMUSIC.core.userbot import assistants
 
 
 @app.on_message(filters.command("sg"))
