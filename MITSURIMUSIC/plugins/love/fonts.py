@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from ANNIEMUSIC.utils.font_styles import Fonts
-from ANNIEMUSIC import app
+from MITSURIMUSIC.utils.font_styles import Fonts
+from MITSURIMUSIC import app
 
 
 @app.on_message(filters.command(["font", "fonts"]))
