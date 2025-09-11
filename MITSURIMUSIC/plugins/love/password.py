@@ -1,7 +1,7 @@
 import random
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 from config import BOT_USERNAME
 
 
