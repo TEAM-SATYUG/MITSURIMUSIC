@@ -12,9 +12,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import (
+from MITSURIMUSIC import YouTube, app
+from MITSURIMUSIC.misc import SUDOERS
+from MITSURIMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -23,7 +23,7 @@ from ANNIEMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from ANNIEMUSIC.utils.inline import botplaylist_markup
+from MITSURIMUSIC.utils.inline import botplaylist_markup
 
 # Cache for invite links per chat
 links = {}
