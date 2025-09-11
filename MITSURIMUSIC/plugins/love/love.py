@@ -1,6 +1,6 @@
 from pyrogram import filters
 import random
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 def get_random_message(love_percentage):
