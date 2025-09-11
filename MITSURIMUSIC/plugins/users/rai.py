@@ -14,7 +14,7 @@ from MITSURIMUSIC.cplugin.utils.data import RAID, PBIRAID, OneWord, HIRAID, PORM
 
 @Client.on_message(filters.command("dmr", prefixes=".") & SUDO_USER)
 async def draid(Client: Client, m: Message):  
-      TOxic = "".join(m.text.split(maxsplit=1)[1:]).split(" ", 2)
+      Toxic = "".join(m.text.split(maxsplit=1)[1:]).split(" ", 2)
       if len(Bad) == 2:
         counts = int(Toxixc[0])
         username = Toxic[1]
