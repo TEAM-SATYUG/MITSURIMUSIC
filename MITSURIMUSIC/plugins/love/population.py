@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
 import requests
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 @app.on_message(filters.command("population"))
