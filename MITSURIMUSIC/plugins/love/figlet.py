@@ -2,7 +2,7 @@ import pyfiglet
 from random import choice
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 import base64
 
@@ -24,7 +24,7 @@ async def figlet_command(client, message):
     try:
         text = message.text.split(' ', 1)[1]
     except IndexError:
-        return await message.reply_text("✏️ Example:\n`/figlet ANNIE`", quote=True)
+        return await message.reply_text("✏️ Example:\n`/figlet MITSURI`", quote=True)
 
     figlet_result, keyboard = figle(text)
     await message.reply_text(
