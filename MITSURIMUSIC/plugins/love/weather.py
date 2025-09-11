@@ -1,7 +1,7 @@
 import httpx
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 timeout = httpx.Timeout(40.0)
 http = httpx.AsyncClient(http2=True, timeout=timeout)
