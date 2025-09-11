@@ -1,7 +1,7 @@
 from ANNIEMUSIC import app
 from config import SUPPORT_CHAT
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import get_lang, is_maintenance
+from MITSURIMUSIC.misc import SUDOERS
+from MITSURIMUSIC.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
