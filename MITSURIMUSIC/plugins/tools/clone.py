@@ -10,11 +10,11 @@ from pyrogram.errors.exceptions.bad_request_400 import (
     AccessTokenExpired,
     AccessTokenInvalid,
 )
-from BADMUSIC.utils.database import get_assistant
+from MITSURIMUSIC.utils.database import get_assistant
 from config import API_ID, API_HASH
-from BADMUSIC import app
-from BADMUSIC.misc import SUDOERS
-from BADMUSIC.utils.database import get_assistant, clonebotdb
+from MITSURIMUSIC import app
+from MITSURIMUSIC.misc import SUDOERS
+from MITSURIMUSIC.utils.database import get_assistant, clonebotdb
 from config import LOG_GROUP_ID 
 
 CLONES = set()
@@ -32,7 +32,7 @@ async def clone_txt(client, message):
                 API_ID,
                 API_HASH,
                 bot_token=bot_token,
-                plugins=dict(root="BADMUSIC.cplugin"),
+                plugins=dict(root="MITSURIMUSIC.cplugin"),
             )
             await ai.start()
             bot = await ai.get_me()
@@ -134,7 +134,7 @@ async def restart_bots():
                 API_ID,
                 API_HASH,
                 bot_token=bot_token,
-                plugins=dict(root="BADMUSIC.cplugin"),
+                plugins=dict(root="MITSURIMUSIC.cplugin"),
             )
             await ai.start()
             bot = await ai.get_me()
