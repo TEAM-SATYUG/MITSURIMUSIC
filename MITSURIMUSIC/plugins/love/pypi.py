@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode
 import requests
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 def get_pypi_info(package_name):
