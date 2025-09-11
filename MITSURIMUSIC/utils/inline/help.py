@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 
 TOTAL_SECTIONS = 29
