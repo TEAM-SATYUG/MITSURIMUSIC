@@ -28,7 +28,7 @@
 
 <p align="center">
   <a href="https://t.me/Assaulted_dark">
-    <img src="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg" width="600">
+    <img src="https://files.catbox.moe/h0ycuw.jpg" width="600">
   </a>
 </p>
 
@@ -36,13 +36,11 @@
 
 <!-- 🛠 Stylish Badge Layout -->
 <p align="center">
-  <a href="https://t.me/AnnieXRobot"><img src="https://img.shields.io/badge/Try%20Bot-@AnnieXRobot-blue?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://t.me/CertifiedCoders"><img src="https://img.shields.io/badge/Join%20Group-@CertifiedCoders-orange?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://t.me/CertifiedCodes"><img src="https://img.shields.io/badge/Updates%20Channel-@CertifiedCodes-purple?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://t.me/CertifiedCoder"><img src="https://img.shields.io/badge/Owner-@CertifiedCoder-red?style=for-the-badge&logo=telegram" /></a>
-  <a href="mailto:rajnishmishraaa1@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-grey?style=for-the-badge&logo=gmail" /></a>
-  <a href="https://instagram.com/rajnishthegreat"><img src="https://img.shields.io/badge/Instagram-Follow-red?style=for-the-badge&logo=instagram" /></a>
-  <a href="https://youtube.com/@rajnisha3"><img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube" /></a>
+  <a href="https://t.me/MitsuriXMusic_Bot"><img src="https://img.shields.io/badge/Try%20Bot-@MitsuriXMusic_Bot-blue?style=for-the-badge&logo=telegram" /></a>
+  <a href="https://t.me/Mitsuri_x_Support"><img src="https://img.shields.io/badge/Join%20Group-@Mitsuri_x_Support-orange?style=for-the-badge&logo=telegram" /></a>
+  <a href="https://t.me/TEAM_x_MITSURI"><img src="https://img.shields.io/badge/Updates%20Channel-@TEAM_x_MITSURI-purple?style=for-the-badge&logo=telegram" /></a>
+  <a href="https://t.me/Assaulted_dark"><img src="https://img.shields.io/badge/Owner-@Assaulted_dark-red?style=for-the-badge&logo=telegram" /></a>
+  
 </p>
 
 ---
