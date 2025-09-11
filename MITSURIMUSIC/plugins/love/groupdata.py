@@ -1,7 +1,7 @@
 import time
 from asyncio import sleep
 from pyrogram import filters, enums
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
 @app.on_message(~filters.private & filters.command(["groupdata"]), group=2)
 async def instatus(app, message):
