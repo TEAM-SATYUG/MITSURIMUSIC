@@ -2,9 +2,9 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 import requests
-from ANNIEMUSIC import app
+from MITSURIMUSIC import app
 
-SUPPORT_CHAT = "CERTIFIEDCODERS"
+SUPPORT_CHAT = "Mitsuri_x_Support"
 SUPPORT_BTN = InlineKeyboardMarkup(
     [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
 )
