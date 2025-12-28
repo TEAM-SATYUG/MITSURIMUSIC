@@ -1,3 +1,5 @@
+﻿# Authorised By Satyug Network © 2025
+
 import os
 import re
 import subprocess
