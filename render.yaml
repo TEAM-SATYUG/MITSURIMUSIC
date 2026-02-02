@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Team Satyug
+    name: MITSURIMUSIC
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
